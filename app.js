@@ -14,7 +14,7 @@ var App = function(){
 		friends: 			$('#friends-template').html()
 	}
 
-	public.init = function(obj){
+	public.init = function(){
 		_updateNewsfeed();
 		_updateFriendsList();
 		_bindEvents();
